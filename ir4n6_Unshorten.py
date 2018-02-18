@@ -11,7 +11,7 @@ s_url = sys.argv[1]
 s_url = s_url.replace('http://', '').replace('https://', '')
 #print(s_url)
 
-#s_url = 'bit.ly/HNpE9'
+#s_url = 'http://bit.ly/2GmLHzg'
 url = 'https://unshorten.me/json/'
 r = requests.get(url + s_url)
 pprint(r.json())
