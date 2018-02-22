@@ -1,0 +1,6 @@
+# Configuration Settings that should not be uploaded to Github
+[Slack]
+webhook_url: <Your Webhook URL>
+oauth_access_token: xoxp-XXXXX
+client_id: XXXXX
+client_secret: XXXXX
