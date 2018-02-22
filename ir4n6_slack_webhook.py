@@ -3,6 +3,12 @@
 #  for the app and Add New Webhook to Workspace
 #  The resulting Webhook URL needs to passed in with the function call
 #  This program can also call the webhook url from a config file
+# I do plan on retiring this and evolve it into OAuth Authentication
+
+__author__  = "Paul Kincaid <paul@ir4n6.io>, Twitter: @ir4n6"
+__date__    = "February 22, 2018"
+__version__ = "1.0"
+__source__  = "https://github.com/ir4n6/ir4n6_libraries/blob/master/ir4n6_slack_webhook.py"
 
 import requests
 
